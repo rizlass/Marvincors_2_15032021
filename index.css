@@ -132,6 +132,77 @@ header {
     color: var(--bluecolor);
     font-weight: bold;
   }
+/**===== Iside ====*/
+
+.aside {
+  flex: 20%;
+  height: 615px;
+  background-color: var(--greycolor);
+  border-radius: 10px;
+  margin-left: 30px;
+  padding: 15px;
+}
+.aside-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.aside-title h2 {
+  font-size: 20px;
+}
+.aside-contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aside-container {
+  width: 340px;
+  height: 145px;
+  background-color: #fff;
+  box-shadow: 0 0 6px 3px #b1b1b14b;
+  border-radius: 15px;
+  margin-top: 35px;
+  margin-left: -5px;
+}
+.aside-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 3px 2px #d8d7d7;
+}
+
+.aside-cart img {
+  object-fit: cover;
+  width: 125px;
+  height: 135px;
+  margin: 5px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.cart-details {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: -125px;
+  margin-left: 120px;
+}
+
+.cart-details h3 {
+  font-size: 16px;
+}
+
+.cart-details p {
+  font-size: 15px;
+}
+
+.cart-star-icons {
+  margin-top: 40px;
+  font-size: 12px;
+}
+
+.line-1 {
+  font-size: 25px;
+  margin-right: 10px;
+}
 
 /**=======FOOTER==================*/
 
