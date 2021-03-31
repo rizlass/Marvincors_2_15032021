@@ -122,6 +122,105 @@ nav {
   color: #0065FC;
   font-weight: bold;
 }
+
+
+
+
+/* FILTRES */
+.filtres {
+  display: flex;
+  align-items: center;
+  margin-top: 49px;
+  margin-left: 63px;
+}
+
+#filtres {
+  display: flex;
+  margin-right: 32px;
+  font-weight: bold;
+}
+
+.filtres input[type=checkbox] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.filtres label {
+  cursor: pointer;
+  margin-right: 24px;
+  text-align: center;
+  height: 50px;
+  line-height: 46px;
+  background: white;
+  display: block;
+  border-radius: 100px;
+  border: 2px solid #f2f2f2;
+  position: relative;
+  font-size: 1.12em;
+  font-weight: bold;
+}
+
+.filtres label,
+.filtres class {
+  padding-left: 63px;
+  padding-right: 22px;
+}
+
+.filtres label:after {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background: #deebff;
+  border-radius: 100px;
+  transition: 0.8s;
+  color: #0065fc;
+}
+
+
+.eco:after {
+  font-family: "font awesome 5 free";
+  content: "\f53a";
+}
+
+.fam:after {
+  font-family: "font awesome 5 free";
+  content: "\f1ae";
+}
+
+.rom:after {
+  font-family: "font awesome 5 free";
+  font-weight: 900;
+  content: "\f004";
+  color: #0065fc;
+}
+
+.dog:after {
+  font-family: "font awesome 5 free";
+  content: "\f6d3";
+}
+
+/* INFOS */
+.info {
+  margin-top: 54px;
+  margin-left: 59px;
+}
+
+i.fa-info {
+  border: 1px solid #F2F2F2;
+  border-radius: 100%;
+  margin-right: 10px;
+  background-color: white;
+  color: #0065FC;
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  line-height: 22px;
+}
+
 /* MAIN */
 .main {
   margin: auto;
@@ -257,8 +356,9 @@ nav {
 }
 
 .fa-chart-line {
-  margin-left: 117px;
+  margin-left: 325px; 
 }
+
 
 /* ACTIVITES */
 #activites {
@@ -289,6 +389,7 @@ nav {
   display: flex;
   flex-direction: column;
 }
+
 
 /*.activites .vignettes */
 
@@ -334,6 +435,7 @@ nav {
 .activites .vignettes h3:hover {
   color: #0065FC;
 }
+
 
 /* FOOTER */
 footer {
